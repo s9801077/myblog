@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>部署 on Puck&#39;s Blog</title><link>https://blog.puckwang.com/tags/%E9%83%A8%E7%BD%B2/</link><description>Recent content in 部署 on Puck&#39;s Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2017-2020, Puck Wang; all rights reserved.</copyright><lastBuildDate>Sat, 14 Mar 2020 21:22:30 +0800</lastBuildDate><atom:link href="https://blog.puckwang.com/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 Github Actions 來自動化部署 Hugo 到 Github Pages</title><link>https://blog.puckwang.com/post/2020/use-github-actions-deploy-hugo/</link><pubDate>Sat, 14 Mar 2020 21:22:30 +0800</pubDate><guid>https://blog.puckwang.com/post/2020/use-github-actions-deploy-hugo/</guid><description>&lt;div class=&#34;mermaid&#34; style=&#34;margin: 2rem 0&#34;&gt;
+graph LR;
+A[Self] --&gt;|Commit| B
+B[Github] --&gt; C
+C[Github Actions] --&gt;|Build/Deploy| D
+D[Github Pages]
+&lt;/div&gt;
+&lt;p&gt;本文說明如何利用 Github Actions 在將 Commit 推上 Github 後，自動化執行 Hugo 建置並部署結果到 Github Pages。&lt;/p&gt;</description></item><item><title>Deploy Bot Framework 4 to IIS</title><link>https://blog.puckwang.com/post/2019/deploy_bot_framework_4_to_iis/</link><pubDate>Wed, 13 Feb 2019 19:00:47 +0800</pubDate><guid>https://blog.puckwang.com/post/2019/deploy_bot_framework_4_to_iis/</guid><description>&lt;p&gt;在使用 Bot Framework 開發時，一定會遇到要部署至 IIS 的狀況，但官方文件就只有寫部署到 Azure 的方法，
+雖然部署 Bot Framework 4 的方法與部署 .Net Core 差不多，但沒注意到細節踩雷也會很煩。&lt;/p&gt;</description></item></channel></rss>
